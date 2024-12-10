@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Екосистеми планети: збереження води та суші</title>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Merriweather&family=Cinzel&family=Montserrat&family=Roboto+Slab&family=Lora&family=Abril+Fatface&family=Lobster&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+<body>
+    <header class="main-header fade-in">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="active">Головна</a></li>
+                <li><a href="water.html">Екосистеми води</a></li>
+                <li><a href="forests.html">Ліси та ґрунти</a></li>
+				<li><a href="actions.html">Як діяти</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1 class="typing">Екосистеми планети: збереження води та суші</h1>
+            <p>Охорона природи — ключ до сталого розвитку та щасливого майбутнього</p>
+        </div>
+    </header>
+    <main>
+        <section class="intro with-background fade-in">
+            <h2>Про важливість збереження екосистем</h2>
+            <p>Збереження екосистем води та суші — один із ключових пріоритетів Цілей сталого розвитку ООН та важливе завдання для людства, особливо в умовах кліматичних змін і занепаду природних ресурсів. Чиста вода, родючі ґрунти, густі ліси — це не лише наш спадок, але й гарантія здорового життя майбутніх поколінь.</p>
+            <p>Природа зазнає потужного впливу людської діяльності, але ситуацію можна змінити. На цьому сайті зібрані найважливіші аспекти захисту екосистем, описані основні проблеми та можливі шляхи їх вирішення, а також представлені реальні поради щодо ефективних дій.</p>
+        </section>
+        <section class="features grid fade-in">
+            <div class="card">
+                <h3>Водні екосистеми</h3>
+                <p>Читайте про критичну роль водних екосистем і виклики, що стоять перед ними.</p>
+            </div>
+            <div class="card">
+                <h3>Ліси та ґрунти</h3>
+                <p>Дізнайтеся, як ліси та ґрунти формують екологічну стабільність планети.</p>
+            </div>
+            <div class="card">
+                <h3>Практичні поради</h3>
+                <p>Отримайте практичні поради, як кожен із нас може долучитися до збереження природи.</p>
+            </div>
+		</section>
+		<div class="timer-container fade-in">
+          <svg class="garland" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" preserveAspectRatio="none">
+            <path d="M0,10 Q300,80 600,10" stroke="black" fill="transparent" stroke-width="4" id="garland-path" />
+               <circle class="bulb red" r="8" />
+               <circle class="bulb yellow" r="8" />
+               <circle class="bulb green" r="8" />
+               <circle class="bulb blue" r="8" />
+               <circle class="bulb red" r="8" />
+               <circle class="bulb yellow" r="8" />
+          </svg>
+          <h2 class="timer-title">Святкове нагадування!</h2>
+          <div id="year-timer"></div>
+          <h3 class="timer-subtitle">до Нового Року :)</h3>
+		  <div class="snow-container"></div> 
+        </div>
+    </main>
+	<div class="pagination">
+        <a href="water.html" class="next">Наступна сторінка</a>
+    </div>
+    <footer class="site-footer fade-in">
+        <p>© 2024 Збереження природи. Ангеліна Осіпцова.</p>
+    </footer>
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+      <filter id="glow-red" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blurred" />
+        <feFlood flood-color="#FF0000" flood-opacity="1" result="colored" />
+        <feComposite in="colored" in2="blurred" operator="in" />
+        <feMerge>
+          <feMergeNode />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+
+      <filter id="glow-yellow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blurred" />
+        <feFlood flood-color="#FFFF00" flood-opacity="1" result="colored" />
+        <feComposite in="colored" in2="blurred" operator="in" />
+        <feMerge>
+          <feMergeNode />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+
+      <filter id="glow-green" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blurred" />
+        <feFlood flood-color="#00FF00" flood-opacity="1" result="colored" />
+        <feComposite in="colored" in2="blurred" operator="in" />
+        <feMerge>
+          <feMergeNode />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+
+      <filter id="glow-blue" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blurred" />
+        <feFlood flood-color="#0000FF" flood-opacity="1" result="colored" />
+        <feComposite in="colored" in2="blurred" operator="in" />
+        <feMerge>
+          <feMergeNode />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+    </svg>
+</body>
+</html>
